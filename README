@@ -1,0 +1,26 @@
+
+Problem with Arrays:
+
+1.Not friendly if we want to print the items in array (of user defined object)
+
+See the ArrayDemo.java. We need to use Arrays.toString inside the syso statement.
+
+2.Arrays don't resize themself:
+
+See the ArraysDemo.java. we get java.lang.ArrayIndexOutOfBoundsException: 2
+
+however we can add items by providing our own logic(this is an extra overhead for developers(specially the lazy one)).
+
+3. Items in arrays can be duplicates.some scenarios it is expected but what if we want uniqueness . again this is overhead to developers
+so there comes the concepts of Collection where these high level requirements are meet.
+
+
+
+Difference between forEach and iterator?
+
+we can't modify any items using forEach from a collection. See CollectionConcepts.java.
+
+if we try removing/adding using remove/add method of collection , we get concurrent modification exception.See CollectionConcepts.java.
+
+
+Lists are collections with iteration order
