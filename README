@@ -23,4 +23,6 @@ we can't modify any items using forEach from a collection. See CollectionConcept
 if we try removing/adding using remove/add method of collection , we get concurrent modification exception.See CollectionConcepts.java.
 
 
-Lists are collections with iteration order
+Lists are collections with iteration order.
+
+Sets are Collections with uniqueness.
